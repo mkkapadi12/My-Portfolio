@@ -29,7 +29,7 @@ const Skills = () => {
               </div>
               <span className="font-semibold">Languages & Markup</span>
             </div>
-            <div className="space-y-3 ml-2 text-sm">
+            <div className="space-y-3 ml-5 text-sm">
               <div className="flex items-center gap-2">
                 <ICONS.HTML size={16} className="text-orange-500" />
                 <span>HTML5</span>
@@ -49,7 +49,7 @@ const Skills = () => {
               </div>
               <span className="font-semibold">Frameworks & Libraries</span>
             </div>
-            <div className="space-y-3 ml-2 text-sm">
+            <div className="space-y-3 ml-5 text-sm">
               <div className="flex items-center gap-2">
                 <ICONS.REACT_JS size={16} className="text-orange-500" />
                 <span>React.js</span>
@@ -89,7 +89,7 @@ const Skills = () => {
               </div>
               <span className="font-semibold">Languages</span>
             </div>
-            <div className="space-y-3 ml-2 text-sm">
+            <div className="space-y-3 ml-5 text-sm">
               <div className="flex items-center gap-2">
                 <ICONS.JAVASCRIPT size={16} className="text-teal-500" />
                 <span>JavaScript</span>
@@ -105,7 +105,7 @@ const Skills = () => {
               </div>
               <span className="font-semibold">Frameworks</span>
             </div>
-            <div className="space-y-3 ml-2 text-sm">
+            <div className="space-y-3 ml-5 text-sm">
               <div className="flex items-center gap-2">
                 <ICONS.EXPRESS_JS size={16} className="text-blue-500" />
                 <span>Express.js</span>
@@ -117,7 +117,7 @@ const Skills = () => {
               </div>
               <span className="font-semibold">Authentication & Security</span>
             </div>
-            <div className="space-y-3 ml-2 text-sm">
+            <div className="space-y-3 ml-5 text-sm">
               <div className="flex items-center gap-2">
                 <ICONS.JWT size={16} className="text-orange-500" />
                 <span>JWT</span>
@@ -149,7 +149,7 @@ const Skills = () => {
               </div>
               <span className="font-semibold">Databases</span>
             </div>
-            <div className="space-y-3 ml-2 text-sm">
+            <div className="space-y-3 ml-5 text-sm">
               <div className="flex items-center gap-2">
                 <ICONS.MONGODB size={16} className="text-teal-500" />
                 <span>MongoDB</span>
@@ -165,7 +165,7 @@ const Skills = () => {
               </div>
               <span className="font-semibold">Tools</span>
             </div>
-            <div className="space-y-3 ml-2 text-sm">
+            <div className="space-y-3 ml-5 text-sm">
               <div className="flex items-center gap-2">
                 <ICONS.MONGODB_ATLAS size={16} className="text-teal-500" />
                 <span>MongoDB Atlas</span>
@@ -181,7 +181,7 @@ const Skills = () => {
               </div>
               <span className="font-semibold">API & Integration</span>
             </div>
-            <div className="space-y-3 ml-2 text-sm">
+            <div className="space-y-3 ml-5 text-sm">
               <div className="flex items-center gap-2">
                 <ICONS.REST_API size={16} className="text-orange-500" />
                 <span>RESTful APIs</span>
@@ -202,7 +202,7 @@ const Skills = () => {
             <h3 className="text-lg font-semibold">Dev Tools & Utilities</h3>
           </div>
 
-          <div className="space-y-3 ml-2 text-sm">
+          <div className="space-y-3 ml-5 text-sm">
             <div className="flex items-center gap-2">
               <ICONS.GIT size={16} className="text-blue-500"></ICONS.GIT>
               <span>Git & GitHub</span>

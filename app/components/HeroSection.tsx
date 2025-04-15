@@ -57,7 +57,7 @@ const HeroSection = () => {
             className="object-contain mt-4 mx-auto"
           />
         </div>
-        <div className="absolute bottom-5 right-36 bg-[#1a2e4c] p-2 rounded-full">
+        <div className="absolute sm:bottom-5 bottom-0 right-6 sm:right-36 bg-[#1a2e4c] p-2 rounded-full">
           <ICONS.GRADUATIONCAP size={24} className="text-yellow-400" />
         </div>
       </div>
