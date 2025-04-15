@@ -1,10 +1,9 @@
-import React from "react";
 import { Badge } from "./ui/badge";
-import { Download, Github, GraduationCap, Linkedin, Mail } from "lucide-react";
 import Link from "next/link";
 import { Button } from "./ui/button";
 import profile from "../../public/profile_photo.jpg";
 import Image from "next/image";
+import { ICONS } from "../assets/icons/icons";
 
 const HeroSection = () => {
   return (
@@ -27,7 +26,7 @@ const HeroSection = () => {
             Get in Touch
           </Button>
           <Button className="bg-[#1a2e4c] hover:bg-[#2a3e5c] text-white rounded-full px-6 flex items-center gap-2">
-            <Download size={18} />
+            <ICONS.DOWNLOAD size={18} />
             Download Resume
           </Button>
           <Button className="bg-[#1a2e4c] hover:bg-[#2a3e5c] text-white rounded-full px-6">
@@ -37,13 +36,13 @@ const HeroSection = () => {
 
         <div className="flex gap-6">
           <Link href="#" className="text-gray-400 hover:text-white transition">
-            <Github size={24} />
+            <ICONS.GITHUB size={24} />
           </Link>
           <Link href="#" className="text-gray-400 hover:text-white transition">
-            <Linkedin size={24} />
+            <ICONS.LINKDIN size={24} />
           </Link>
           <Link href="#" className="text-gray-400 hover:text-white transition">
-            <Mail size={24} />
+            <ICONS.MAIL size={24} />
           </Link>
         </div>
       </div>
@@ -59,7 +58,7 @@ const HeroSection = () => {
           />
         </div>
         <div className="absolute bottom-5 right-36 bg-[#1a2e4c] p-2 rounded-full">
-          <GraduationCap size={24} className="text-yellow-400" />
+          <ICONS.GRADUATIONCAP size={24} className="text-yellow-400" />
         </div>
       </div>
     </section>
